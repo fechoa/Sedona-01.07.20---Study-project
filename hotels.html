@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Туристический город Sedona</title>
+</head>
+
+<body>
+	<header>
+		<a href="#"><img src="img/logo.svg" width="138" height="70" alt="Логотип Sedona"></a>
+		<ul>
+			<li><a href="#">Информация</a></li>
+			<li><a href="#">Фото и видео</a></li>
+			<li><a href="#">Карта штата</a></li>
+			<li><a href="#">Гостиницы</a></li>
+		</ul>		
+	</header>
+
+	<main>
+		<div>
+			<form action="echo.htmlacademy.ru">
+				<fieldset>
+					<legend>Инфраструктура:</legend>
+
+					<input type="checkbox" name="swimpool" id="swimpool" checked>
+					<label for="swimpool">Бассейн</label>
+
+					<input type="checkbox" name="parking" id="parking">
+					<label for="parking">Парковка</label>
+
+					<input type="checkbox" name="wifi" id="wifi">
+					<label for="wifi">Wi-fi</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Тип жилья:</legend>
+
+					<input type="checkbox" name="hotels" id="hotels" checked>
+					<label for="hotels">Гостиница</label>
+
+					<input type="checkbox" name="motels" id="motels" checked>
+					<label for="motels">Мотель</label>
+					
+					<input type="checkbox" name="apartments" id="apartments" checked>
+					<label for="apartments">Апартаменты</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Стоимость в сутки (Р):</legend>
+					
+					<input type="text" placeholder="от 0">
+					<input type="text" placeholder="до 3000">
+					<input type="range" min="0" max="3000" step="1" id="price-tag">
+				</fieldset>
+
+				<button type="submit">Показать</button>
+			</form>
+		</div>
+
+		<div>
+			<h3>Найдено: 3</h3>
+			
+			<p>Сортировка:</p>
+
+			<ul>
+				<li><a href="#">По цене</a></li>
+				<li><a href="#">По типу</a></li>
+				<li><a href="#">По рейтингу</a></li>
+				<li><a href="#">Меньше</a></li>
+				<li><a href="#">Больше</a></li>
+			</ul>
+		</div>
+
+		<article>
+			<h3>Amara resort & spa</h3>
+
+			<p>Гостиница</p>
+			<p>от 4000 Р.</p>
+
+			<a href="#">Подробнее</a>
+			<a href="#">Забронировать</a>
+
+			<p>Рейтинг:9,2</p>
+
+			<img src="img/card1.jpg" width="135" height="90" alt="Гостиница Amara resort & spa">
+		</article>
+
+		<article>
+			<h3>Desert quail inn</h3>
+
+			<p>Мотель</p>
+			<p>от 3000 Р.</p>
+
+			<a href="#">Подробнее</a>
+			<a href="#">Забронировать</a>
+
+			<p>Рейтинг:8,5</p>
+
+			<img src="img/card2.jpg" width="135" height="90" alt="Мотель Desert Quail Inn">
+		</article>
+
+		<article>
+			<h3>Villas at poco diablo</h3>
+
+			<p>Апартаменты</p>
+			<p>от 2000 Р.</p>
+
+			<a href="#">Подробнее</a>
+			<a href="#">Забронировать</a>
+
+			<p>Рейтинг:8,9</p>
+
+			<img src="img/card3.jpg" width="135" height="90" alt="Апартаменты Villas at poco diablo">
+		</article>
+	</main>
+
+	<footer>
+		<p>
+			#Visitsedona<br>
+			Тел:<a href="tel:+74956660166">+7(495)666-01-66</a>
+		</p>
+
+		<ul>
+			<li><a>Twitter</a></li>
+			<li><a>Facebook</a></li>
+			<li><a>Youtube</a></li>
+		</ul>
+		
+		<div>
+			<p>
+				Website by
+			</p>
+
+			<a href="http://htmlacademy.ru"><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип Html Academy"></a>
+		</div>
+	</footer>
+</body>
+</html>
